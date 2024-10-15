@@ -5,7 +5,6 @@ from functools import cache
 __all__ = ["pi", "rsum"]
 
 
-# comment added so that can run tests (by pushing again)
 def pi(terms=1):
     return 1.0 / (2.0 * sqrt(2.0) / 9801.0 * rsum(terms))
 
